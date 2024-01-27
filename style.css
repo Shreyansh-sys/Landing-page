@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container img {
+    width: 400px;
+    max-height: 100%;
+}
+
+.sub-images img{
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882F6;
+    border-radius: 13px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header, .container {
+    background-color: #1f2937;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-links, .right-links {
+    display: flex;
+    padding: 0 100px;
+    /* flex: 1; */
+}
+
+.left-links {
+    font-size: 24px;
+    color: #F9F8FA;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9F8FA;
+}
+
+.content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    /* margin-bottom: 10px; */
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    color: #F9F8FA;
+    border: solid #3882F6;
+    border-radius: 7px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+}
+
+.sub-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+}
+
+.sub-images p {
+    color: #1f2937;
+    padding: 5px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 414px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 120px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    align-items: center;
+    color:#F9F8FA;
+}
+
+.action button {
+    border: solid #F9F8FA;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+    color: #F9F8FA;
+}
